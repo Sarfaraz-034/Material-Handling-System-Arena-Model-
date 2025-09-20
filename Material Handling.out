@@ -1,0 +1,616 @@
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 1 of 2
+
+Project: Material Handling                                           Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 1795.5679 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+CNC Milling.WaitCostPerEntity               .00000     (Insuf)    .00000     .00000        140    
+Rework.WaitTimePerEntity                    .00000     (Insuf)    .00000     .00000         13    
+Rework.TotalTimePerEntity                   3.4017     (Insuf)    2.5762     4.7517         13    
+Rework.VACostPerEntity                      11.339     (Insuf)    8.5873     15.839         13    
+CNC Milling.TotalTimePerEntity              244.16     (Insuf)    13.458     469.19        140    
+Rework.WaitCostPerEntity                    .00000     (Insuf)    .00000     .00000         13    
+Rework.VATimePerEntity                      3.4017     (Insuf)    2.5762     4.7517         13    
+CNC Milling.VATimePerEntity                 12.264     (Insuf)    10.175     14.816        140    
+Rework.TotalCostPerEntity                   11.339     (Insuf)    8.5873     15.839         13    
+CNC Milling.TotalCostPerEntity              40.882     (Insuf)    33.919     49.388        140    
+CNC Lathe.VATimePerEntity                   8.9754     (Insuf)    7.1064     10.727        140    
+CNC Lathe.WaitCostPerEntity                 .00000     (Insuf)    .00000     .00000        140    
+CNC Milling.VACostPerEntity                 40.882     (Insuf)    33.919     49.388        140    
+CNC Lathe.TotalTimePerEntity                475.82     (Insuf)    8.6954     951.47        140    
+CNC Lathe.WaitTimePerEntity                 466.84     (Insuf)    .00000     943.68        140    
+CNC Lathe.VACostPerEntity                   29.918     (Insuf)    23.688     35.757        140    
+CNC Milling.WaitTimePerEntity               231.89     (Insuf)    .00000     457.00        140    
+CNC Lathe.TotalCostPerEntity                29.918     (Insuf)    23.688     35.757        140    
+Parts.VATime                                21.555     (Insuf)    18.373     27.299        140    
+Parts.NVATime                               .00000     (Insuf)    .00000     .00000        140    
+Parts.WaitTime                              723.32     (Insuf)    .00000     1458.2        140    
+Parts.TranTime                              7.4190     (Insuf)    6.8000     13.466        140    
+Parts.OtherTime                             .00000     (Insuf)    .00000     .00000        140    
+Parts.TotalTime                             752.30     (Insuf)    28.954     1484.2        140    
+Parts.VACost                                71.853     (Insuf)    61.244     90.999        140    
+Parts.NVACost                               .00000     (Insuf)    .00000     .00000        140    
+Parts.WaitCost                              .00000     (Insuf)    .00000     .00000        140    
+Parts.TranCost                              .00000     (Insuf)    .00000     .00000        140    
+Parts.OtherCost                             .00000     (Insuf)    .00000     .00000        140    
+Parts.TotalCost                             71.853     (Insuf)    61.244     90.999        140    
+Leave Milling for Wire House.Queue.Waiting  22.527     (Insuf)    .00000     61.873        127    
+Leave Milling for Wire House.Queue.Waiting  .00000     (Insuf)    .00000     .00000        127    
+Leave Rework.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000         13    
+Leave Rework.Queue.WaitingCost              .00000     (Insuf)    .00000     .00000         13    
+Load to Conveyor.Queue.WaitingTime          .00174     (Insuf)    .00000     .05968        140    
+Load to Conveyor.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000        140    
+Leave Lathe.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000        140    
+Leave Lathe.Queue.WaitingCost               .00000     (Insuf)    .00000     .00000        140    
+Rework.Queue.WaitingTime                    .00000     (Insuf)    .00000     .00000         13    
+Rework.Queue.WaitingCost                    .00000     (Insuf)    .00000     .00000         13    
+CNC Milling.Queue.WaitingTime               231.89     (Insuf)    .00000     457.00        140    
+CNC Milling.Queue.WaitingCost               .00000     (Insuf)    .00000     .00000        140    
+CNC Lathe.Queue.WaitingTime                 466.84     (Insuf)    .00000     943.68        140    
+CNC Lathe.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000        140    
+Leave Milling for Rework.Queue.WaitingTime  .05977     (Insuf)    .00000     .77696         13    
+Leave Milling for Rework.Queue.WaitingCost  .00000     (Insuf)    .00000     .00000         13    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   58.656     (Insuf)    .00000     117.00     .00000    
+Milling Operator.NumberBusy                 .95627     (Insuf)    .00000     1.0000     .00000    
+Milling Operator.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Milling Operator.Utilization                .95627     (Insuf)    .00000     1.0000     .00000    
+Lathe Operator.NumberBusy                   .69981     (Insuf)    .00000     1.0000     .00000    
+Lathe Operator.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Lathe Operator.Utilization                  .69981     (Insuf)    .00000     1.0000     .00000    
+Rework Operator.NumberBusy                  .02463     (Insuf)    .00000     1.0000     .00000    
+Rework Operator.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Rework Operator.Utilization                 .02463     (Insuf)    .00000     1.0000     .00000    
+Leave Milling for Wire House.Queue.NumberI  1.5933     (Insuf)    .00000     5.0000     .00000    
+Leave Rework.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+Load to Conveyor.Queue.NumberInQueue        1.3592E-04 (Insuf)    .00000     1.0000     .00000    
+Leave Lathe.Queue.NumberInQueue             .00000     (Insuf)    .00000     1.0000     .00000    
+Rework.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+CNC Milling.Queue.NumberInQueue             18.080     (Insuf)    .00000     38.000     .00000    
+CNC Lathe.Queue.NumberInQueue               36.399     (Insuf)    .00000     105.00     .00000    
+Leave Milling for Rework.Queue.NumberInQue  4.3271E-04 (Insuf)    .00000     1.0000     .00000    
+Transporter 1.NumberBusy                    .94306     (Insuf)    .00000     1.0000     .00000    
+Transporter 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Transporter 1.Utilization                   .94306     (Insuf)    .00000     1.0000     .00000    
+Transporter 2.NumberBusy                    .09653     (Insuf)    .00000     1.0000     .00000    
+Transporter 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Transporter 2.Utilization                   .09653     (Insuf)    .00000     1.0000     .00000    
+Transporter 3.NumberBusy                    .09653     (Insuf)    .00000     1.0000     .00000    
+Transporter 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Transporter 3.Utilization                   .09653     (Insuf)    .00000     1.0000     .00000    
+Conveyor 1.Utilization                      .00347     (Corr)     .00000     .66667     .00000    
+Conveyor 1.LengthAccumulated                .00000     (Insuf)    .00000     2.0000     .00000    
+Station1.NumEntTrans                        .00000     (Insuf)    .00000     .00000     .00000    
+Enter Milling.Station.NumEntTrans           .00520     (Insuf)    .00000     1.0000     .00000    
+Enter Rework.Station.NumEntTrans            .04827     (Insuf)    .00000     1.0000     .00000    
+Enter Wire House R.Station.NumEntTrans      .04827     (Insuf)    .00000     1.0000     .00000    
+Enter Wire House M.Station.NumEntTrans      .47153     (Insuf)    .00000     1.0000     .00000    
+Enter Lathe.Station.NumEntTrans             .00520     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+CNC Milling Accum VA Time                   1717.0    
+CNC Milling Number In                       140.00    
+CNC Milling Accum VA Cost                   5723.5    
+CNC Milling Number Out                      140.00    
+Rework Accum VA Cost                        147.40    
+Rework Accum VA Time                        44.222    
+CNC Lathe Total Accum Cost                  4188.5    
+Rework Total Accum Cost                     147.40    
+CNC Lathe Number Out                        140.00    
+CNC Lathe Number In                         140.00    
+CNC Milling Accum Wait Cost                 .00000    
+CNC Milling Accum Wait Time                 32465.    
+CNC Lathe Accum VA Time                     1256.5    
+CNC Lathe Accum VA Cost                     4188.5    
+Rework Total Accum Time                     44.222    
+CNC Lathe Accum Wait Cost                   .00000    
+CNC Lathe Accum Wait Time                   65358.    
+Rework Number Out                           13.000    
+Rework Number In                            13.000    
+CNC Lathe Total Accum Time                  66615.    
+Rework Accum Wait Time                      .00000    
+CNC Milling Total Accum Cost                5723.5    
+CNC Milling Total Accum Time                34182.    
+Rework Accum Wait Cost                      .00000    
+Parts.NumberIn                              140.00    
+Parts.NumberOut                             140.00    
+Milling Operator.NumberSeized               140.00    
+Milling Operator.ScheduledUtilization       .95627    
+Milling Operator.BusyCost                   5723.5    
+Milling Operator.IdleCost                   130.85    
+Milling Operator.UsageCost                  .00000    
+Lathe Operator.NumberSeized                 140.00    
+Lathe Operator.ScheduledUtilization         .69981    
+Lathe Operator.BusyCost                     4188.5    
+Lathe Operator.IdleCost                     898.35    
+Lathe Operator.UsageCost                    .00000    
+Rework Operator.NumberSeized                13.000    
+Rework Operator.ScheduledUtilization        .02463    
+Rework Operator.BusyCost                    147.40    
+Rework Operator.IdleCost                    2918.9    
+Rework Operator.UsageCost                   .00000    
+Station1.AccumVATime                        .00000    
+Station1.AccumNVATime                       .00000    
+Station1.AccumWaitTime                      .24406    
+Station1.AccumTranTime                      .00000    
+Station1.AccumOtherTime                     .00000    
+Station1.TotalAccumTime                     .24406    
+Station1.AccumVACost                        .00000    
+Station1.AccumNVACost                       .00000    
+Station1.AccumWaitCost                      .00000    
+Station1.AccumTranCost                      .00000    
+Station1.AccumOtherCost                     .00000    
+Station1.TotalAccumCost                     .00000    
+Enter Milling.Station.AccumVATime           1717.0    
+Enter Milling.Station.AccumNVATime          .00000    
+Enter Milling.Station.AccumWaitTime         35907.    
+Enter Milling.Station.AccumTranTime         .00000    
+Enter Milling.Station.AccumOtherTime        .00000    
+Enter Milling.Station.TotalAccumTime        37624.    
+Enter Milling.Station.AccumVACost           5723.5    
+Enter Milling.Station.AccumNVACost          .00000    
+Enter Milling.Station.AccumWaitCost         .00000    
+Enter Milling.Station.AccumTranCost         .00000    
+Enter Milling.Station.AccumOtherCost        .00000    
+Enter Milling.Station.TotalAccumCost        5723.5    
+Enter Rework.Station.AccumVATime            44.222    
+Enter Rework.Station.AccumNVATime           .00000    
+Enter Rework.Station.AccumWaitTime          .00000    
+Enter Rework.Station.AccumTranTime          .00000    
+Enter Rework.Station.AccumOtherTime         .00000    
+Enter Rework.Station.TotalAccumTime         44.222    
+Enter Rework.Station.AccumVACost            147.40    
+Enter Rework.Station.AccumNVACost           .00000    
+Enter Rework.Station.AccumWaitCost          .00000    
+Enter Rework.Station.AccumTranCost          .00000    
+Enter Rework.Station.AccumOtherCost         .00000    
+Enter Rework.Station.TotalAccumCost         147.40    
+Enter Wire House R.Station.AccumVATime      .00000    
+Enter Wire House R.Station.AccumNVATime     .00000    
+Enter Wire House R.Station.AccumWaitTime    .00000    
+Enter Wire House R.Station.AccumTranTime    .00000    
+Enter Wire House R.Station.AccumOtherTime   .00000    
+Enter Wire House R.Station.TotalAccumTime   .00000    
+Enter Wire House R.Station.AccumVACost      .00000    
+Enter Wire House R.Station.AccumNVACost     .00000    
+Enter Wire House R.Station.AccumWaitCost    .00000    
+Enter Wire House R.Station.AccumTranCost    .00000    
+Enter Wire House R.Station.AccumOtherCost   .00000    
+Enter Wire House R.Station.TotalAccumCost   .00000    
+Enter Wire House M.Station.AccumVATime      .00000    
+Enter Wire House M.Station.AccumNVATime     .00000    
+Enter Wire House M.Station.AccumWaitTime    .00000    
+Enter Wire House M.Station.AccumTranTime    .00000    
+Enter Wire House M.Station.AccumOtherTime   .00000    
+Enter Wire House M.Station.TotalAccumTime   .00000    
+Enter Wire House M.Station.AccumVACost      .00000    
+Enter Wire House M.Station.AccumNVACost     .00000    
+Enter Wire House M.Station.AccumWaitCost    .00000    
+Enter Wire House M.Station.AccumTranCost    .00000    
+Enter Wire House M.Station.AccumOtherCost   .00000    
+Enter Wire House M.Station.TotalAccumCost   .00000    
+Enter Lathe.Station.AccumVATime             1256.5    
+Enter Lathe.Station.AccumNVATime            .00000    
+Enter Lathe.Station.AccumWaitTime           65358.    
+Enter Lathe.Station.AccumTranTime           .00000    
+Enter Lathe.Station.AccumOtherTime          .00000    
+Enter Lathe.Station.TotalAccumTime          66615.    
+Enter Lathe.Station.AccumVACost             4188.5    
+Enter Lathe.Station.AccumNVACost            .00000    
+Enter Lathe.Station.AccumWaitCost           .00000    
+Enter Lathe.Station.AccumTranCost           .00000    
+Enter Lathe.Station.AccumOtherCost          .00000    
+Enter Lathe.Station.TotalAccumCost          4188.5    
+All Entities.VACost                         10059.    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      10059.    
+All Resources.BusyCost                      10059.    
+All Resources.IdleCost                      3948.1    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     14007.    
+System.TotalCost                            14007.    
+System.NumberOut                            140.00    
+
+Beginning replication 2 of 2
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 2 of 2
+
+Project: Material Handling                                           Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 1740.3239 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+CNC Milling.WaitCostPerEntity               .00000     (Insuf)    .00000     .00000        140    
+Rework.WaitTimePerEntity                    .00000     (Insuf)    .00000     .00000         15    
+Rework.TotalTimePerEntity                   3.3461     (Insuf)    2.5080     4.1390         15    
+Rework.VACostPerEntity                      11.153     (Insuf)    8.3600     13.796         15    
+CNC Milling.TotalTimePerEntity              231.90     (Insuf)    10.943     453.07        140    
+Rework.WaitCostPerEntity                    .00000     (Insuf)    .00000     .00000         15    
+Rework.VATimePerEntity                      3.3461     (Insuf)    2.5080     4.1390         15    
+CNC Milling.VATimePerEntity                 12.216     (Insuf)    10.062     14.736        140    
+Rework.TotalCostPerEntity                   11.153     (Insuf)    8.3600     13.796         15    
+CNC Milling.TotalCostPerEntity              40.722     (Insuf)    33.542     49.123        140    
+CNC Lathe.VATimePerEntity                   9.0492     (Insuf)    7.2029     10.718        140    
+CNC Lathe.WaitCostPerEntity                 .00000     (Insuf)    .00000     .00000        140    
+CNC Milling.VACostPerEntity                 40.722     (Insuf)    33.542     49.123        140    
+CNC Lathe.TotalTimePerEntity                492.63     (Insuf)    9.6115     990.04        140    
+CNC Lathe.WaitTimePerEntity                 483.58     (Insuf)    .00000     981.02        140    
+CNC Lathe.VACostPerEntity                   30.164     (Insuf)    24.009     35.726        140    
+CNC Milling.WaitTimePerEntity               219.69     (Insuf)    .00000     442.05        140    
+CNC Lathe.TotalCostPerEntity                30.164     (Insuf)    24.009     35.726        140    
+Parts.VATime                                21.624     (Insuf)    18.201     27.350        140    
+Parts.NVATime                               .00000     (Insuf)    .00000     .00000        140    
+Parts.WaitTime                              713.89     (Insuf)    .00000     1430.0        140    
+Parts.TranTime                              7.5143     (Insuf)    6.8000     13.468        140    
+Parts.OtherTime                             .00000     (Insuf)    .00000     .00000        140    
+Parts.TotalTime                             743.03     (Insuf)    27.355     1456.8        140    
+Parts.VACost                                72.082     (Insuf)    60.670     91.168        140    
+Parts.NVACost                               .00000     (Insuf)    .00000     .00000        140    
+Parts.WaitCost                              .00000     (Insuf)    .00000     .00000        140    
+Parts.TranCost                              .00000     (Insuf)    .00000     .00000        140    
+Parts.OtherCost                             .00000     (Insuf)    .00000     .00000        140    
+Parts.TotalCost                             72.082     (Insuf)    60.670     91.168        140    
+Leave Milling for Wire House.Queue.Waiting  7.5395     (Insuf)    .00000     27.027        125    
+Leave Milling for Wire House.Queue.Waiting  .00000     (Insuf)    .00000     .00000        125    
+Leave Rework.Queue.WaitingTime              .06823     (Insuf)    .00000     1.0234         15    
+Leave Rework.Queue.WaitingCost              .00000     (Insuf)    .00000     .00000         15    
+Load to Conveyor.Queue.WaitingTime          9.5136E-04 (Insuf)    .00000     .04874        140    
+Load to Conveyor.Queue.WaitingCost          .00000     (Insuf)    .00000     .00000        140    
+Leave Lathe.Queue.WaitingTime               3.6683E-04 (Insuf)    .00000     .04318        140    
+Leave Lathe.Queue.WaitingCost               .00000     (Insuf)    .00000     .00000        140    
+Rework.Queue.WaitingTime                    .00000     (Insuf)    .00000     .00000         15    
+Rework.Queue.WaitingCost                    .00000     (Insuf)    .00000     .00000         15    
+CNC Milling.Queue.WaitingTime               219.69     (Insuf)    .00000     442.05        140    
+CNC Milling.Queue.WaitingCost               .00000     (Insuf)    .00000     .00000        140    
+CNC Lathe.Queue.WaitingTime                 483.58     (Insuf)    .00000     981.02        140    
+CNC Lathe.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000        140    
+Leave Milling for Rework.Queue.WaitingTime  .15052     (Insuf)    .00000     2.2578         15    
+Leave Milling for Rework.Queue.WaitingCost  .00000     (Insuf)    .00000     .00000         15    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Parts.WIP                                   59.773     (Insuf)    .00000     119.00     .00000    
+Milling Operator.NumberBusy                 .98278     (Insuf)    .00000     1.0000     .00000    
+Milling Operator.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Milling Operator.Utilization                .98278     (Insuf)    .00000     1.0000     .00000    
+Lathe Operator.NumberBusy                   .72797     (Insuf)    .00000     1.0000     .00000    
+Lathe Operator.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Lathe Operator.Utilization                  .72797     (Insuf)    .00000     1.0000     .00000    
+Rework Operator.NumberBusy                  .02884     (Insuf)    .00000     1.0000     .00000    
+Rework Operator.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Rework Operator.Utilization                 .02884     (Insuf)    .00000     1.0000     .00000    
+Leave Milling for Wire House.Queue.NumberI  .54153     (Insuf)    .00000     3.0000     .00000    
+Leave Rework.Queue.NumberInQueue            5.8807E-04 (Insuf)    .00000     1.0000     .00000    
+Load to Conveyor.Queue.NumberInQueue        7.6532E-05 (Insuf)    .00000     1.0000     .00000    
+Leave Lathe.Queue.NumberInQueue             2.9510E-05 (Insuf)    .00000     1.0000     .00000    
+Rework.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+CNC Milling.Queue.NumberInQueue             17.673     (Insuf)    .00000     37.000     .00000    
+CNC Lathe.Queue.NumberInQueue               38.902     (Insuf)    .00000     109.00     .00000    
+Leave Milling for Rework.Queue.NumberInQue  .00130     (Insuf)    .00000     1.0000     .00000    
+Transporter 1.NumberBusy                    .95768     (Insuf)    .00000     1.0000     .00000    
+Transporter 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Transporter 1.Utilization                   .95768     (Insuf)    .00000     1.0000     .00000    
+Transporter 2.NumberBusy                    .11492     (Insuf)    .00000     1.0000     .00000    
+Transporter 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Transporter 2.Utilization                   .11492     (Insuf)    .00000     1.0000     .00000    
+Transporter 3.NumberBusy                    .11492     (Insuf)    .00000     1.0000     .00000    
+Transporter 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Transporter 3.Utilization                   .11492     (Insuf)    .00000     1.0000     .00000    
+Conveyor 1.Utilization                      .00358     (Corr)     .00000     .66667     .00000    
+Conveyor 1.LengthAccumulated                .00000     (Insuf)    .00000     2.0000     .00000    
+Station1.NumEntTrans                        .00000     (Insuf)    .00000     .00000     .00000    
+Enter Milling.Station.NumEntTrans           .00536     (Insuf)    .00000     1.0000     .00000    
+Enter Rework.Station.NumEntTrans            .05746     (Insuf)    .00000     1.0000     .00000    
+Enter Wire House R.Station.NumEntTrans      .05746     (Insuf)    .00000     1.0000     .00000    
+Enter Wire House M.Station.NumEntTrans      .47884     (Insuf)    .00000     1.0000     .00000    
+Enter Lathe.Station.NumEntTrans             .00536     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+CNC Milling Accum VA Time                   1710.3    
+CNC Milling Number In                       140.00    
+CNC Milling Accum VA Cost                   5701.2    
+CNC Milling Number Out                      140.00    
+Rework Accum VA Cost                        167.30    
+Rework Accum VA Time                        50.191    
+CNC Lathe Total Accum Cost                  4222.9    
+Rework Total Accum Cost                     167.30    
+CNC Lathe Number Out                        140.00    
+CNC Lathe Number In                         140.00    
+CNC Milling Accum Wait Cost                 .00000    
+CNC Milling Accum Wait Time                 30756.    
+CNC Lathe Accum VA Time                     1266.8    
+CNC Lathe Accum VA Cost                     4222.9    
+Rework Total Accum Time                     50.191    
+CNC Lathe Accum Wait Cost                   .00000    
+CNC Lathe Accum Wait Time                   67702.    
+Rework Number Out                           15.000    
+Rework Number In                            15.000    
+CNC Lathe Total Accum Time                  68969.    
+Rework Accum Wait Time                      .00000    
+CNC Milling Total Accum Cost                5701.2    
+CNC Milling Total Accum Time                32467.    
+Rework Accum Wait Cost                      .00000    
+Parts.NumberIn                              140.00    
+Parts.NumberOut                             140.00    
+Milling Operator.NumberSeized               140.00    
+Milling Operator.ScheduledUtilization       .98278    
+Milling Operator.BusyCost                   5701.2    
+Milling Operator.IdleCost                   49.935    
+Milling Operator.UsageCost                  .00000    
+Lathe Operator.NumberSeized                 140.00    
+Lathe Operator.ScheduledUtilization         .72797    
+Lathe Operator.BusyCost                     4222.9    
+Lathe Operator.IdleCost                     789.04    
+Lathe Operator.UsageCost                    .00000    
+Rework Operator.NumberSeized                15.000    
+Rework Operator.ScheduledUtilization        .02884    
+Rework Operator.BusyCost                    167.30    
+Rework Operator.IdleCost                    2816.8    
+Rework Operator.UsageCost                   .00000    
+Station1.AccumVATime                        .00000    
+Station1.AccumNVATime                       .00000    
+Station1.AccumWaitTime                      .13319    
+Station1.AccumTranTime                      .00000    
+Station1.AccumOtherTime                     .00000    
+Station1.TotalAccumTime                     .13319    
+Station1.AccumVACost                        .00000    
+Station1.AccumNVACost                       .00000    
+Station1.AccumWaitCost                      .00000    
+Station1.AccumTranCost                      .00000    
+Station1.AccumOtherCost                     .00000    
+Station1.TotalAccumCost                     .00000    
+Enter Milling.Station.AccumVATime           1710.3    
+Enter Milling.Station.AccumNVATime          .00000    
+Enter Milling.Station.AccumWaitTime         32241.    
+Enter Milling.Station.AccumTranTime         .00000    
+Enter Milling.Station.AccumOtherTime        .00000    
+Enter Milling.Station.TotalAccumTime        33951.    
+Enter Milling.Station.AccumVACost           5701.2    
+Enter Milling.Station.AccumNVACost          .00000    
+Enter Milling.Station.AccumWaitCost         .00000    
+Enter Milling.Station.AccumTranCost         .00000    
+Enter Milling.Station.AccumOtherCost        .00000    
+Enter Milling.Station.TotalAccumCost        5701.2    
+Enter Rework.Station.AccumVATime            50.191    
+Enter Rework.Station.AccumNVATime           .00000    
+Enter Rework.Station.AccumWaitTime          1.0234    
+Enter Rework.Station.AccumTranTime          .00000    
+Enter Rework.Station.AccumOtherTime         .00000    
+Enter Rework.Station.TotalAccumTime         51.215    
+Enter Rework.Station.AccumVACost            167.30    
+Enter Rework.Station.AccumNVACost           .00000    
+Enter Rework.Station.AccumWaitCost          .00000    
+Enter Rework.Station.AccumTranCost          .00000    
+Enter Rework.Station.AccumOtherCost         .00000    
+Enter Rework.Station.TotalAccumCost         167.30    
+Enter Wire House R.Station.AccumVATime      .00000    
+Enter Wire House R.Station.AccumNVATime     .00000    
+Enter Wire House R.Station.AccumWaitTime    .00000    
+Enter Wire House R.Station.AccumTranTime    .00000    
+Enter Wire House R.Station.AccumOtherTime   .00000    
+Enter Wire House R.Station.TotalAccumTime   .00000    
+Enter Wire House R.Station.AccumVACost      .00000    
+Enter Wire House R.Station.AccumNVACost     .00000    
+Enter Wire House R.Station.AccumWaitCost    .00000    
+Enter Wire House R.Station.AccumTranCost    .00000    
+Enter Wire House R.Station.AccumOtherCost   .00000    
+Enter Wire House R.Station.TotalAccumCost   .00000    
+Enter Wire House M.Station.AccumVATime      .00000    
+Enter Wire House M.Station.AccumNVATime     .00000    
+Enter Wire House M.Station.AccumWaitTime    .00000    
+Enter Wire House M.Station.AccumTranTime    .00000    
+Enter Wire House M.Station.AccumOtherTime   .00000    
+Enter Wire House M.Station.TotalAccumTime   .00000    
+Enter Wire House M.Station.AccumVACost      .00000    
+Enter Wire House M.Station.AccumNVACost     .00000    
+Enter Wire House M.Station.AccumWaitCost    .00000    
+Enter Wire House M.Station.AccumTranCost    .00000    
+Enter Wire House M.Station.AccumOtherCost   .00000    
+Enter Wire House M.Station.TotalAccumCost   .00000    
+Enter Lathe.Station.AccumVATime             1266.8    
+Enter Lathe.Station.AccumNVATime            .00000    
+Enter Lathe.Station.AccumWaitTime           67702.    
+Enter Lathe.Station.AccumTranTime           .00000    
+Enter Lathe.Station.AccumOtherTime          .00000    
+Enter Lathe.Station.TotalAccumTime          68969.    
+Enter Lathe.Station.AccumVACost             4222.9    
+Enter Lathe.Station.AccumNVACost            .00000    
+Enter Lathe.Station.AccumWaitCost           .00000    
+Enter Lathe.Station.AccumTranCost           .00000    
+Enter Lathe.Station.AccumOtherCost          .00000    
+Enter Lathe.Station.TotalAccumCost          4222.9    
+All Entities.VACost                         10091.    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      10091.    
+All Resources.BusyCost                      10091.    
+All Resources.IdleCost                      3655.8    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     13747.    
+System.TotalCost                            13747.    
+System.NumberOut                            140.00    
+
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Output Summary for 2 Replications
+
+Project: Material Handling                                           Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+CNC Milling Accum VA Time                   1713.7     42.517     1710.3     1717.0     2
+CNC Milling Number In                       140.00     .00000     140.00     140.00     2
+CNC Milling Accum VA Cost                   5712.3     141.72     5701.2     5723.5     2
+CNC Milling Number Out                      140.00     .00000     140.00     140.00     2
+Rework Accum VA Cost                        157.35     126.41     147.40     167.30     2
+Rework Accum VA Time                        47.206     37.923     44.222     50.191     2
+CNC Lathe Total Accum Cost                  4205.7     218.98     4188.5     4222.9     2
+Rework Total Accum Cost                     157.35     126.41     147.40     167.30     2
+CNC Lathe Number Out                        140.00     .00000     140.00     140.00     2
+CNC Lathe Number In                         140.00     .00000     140.00     140.00     2
+CNC Milling Accum Wait Cost                 .00000     .00000     .00000     .00000     2
+CNC Milling Accum Wait Time                 31611.     10854.     30756.     32465.     2
+CNC Lathe Accum VA Time                     1261.7     65.696     1256.5     1266.8     2
+CNC Lathe Accum VA Cost                     4205.7     218.98     4188.5     4222.9     2
+Rework Total Accum Time                     47.206     37.923     44.222     50.191     2
+CNC Lathe Accum Wait Cost                   .00000     .00000     .00000     .00000     2
+CNC Lathe Accum Wait Time                   66530.     14889.     65358.     67702.     2
+Rework Number Out                           14.000     12.706     13.000     15.000     2
+Rework Number In                            14.000     12.706     13.000     15.000     2
+CNC Lathe Total Accum Time                  67792.     14955.     66615.     68969.     2
+Rework Accum Wait Time                      .00000     .00000     .00000     .00000     2
+CNC Milling Total Accum Cost                5712.3     141.72     5701.2     5723.5     2
+CNC Milling Total Accum Time                33324.     10897.     32467.     34182.     2
+Rework Accum Wait Cost                      .00000     .00000     .00000     .00000     2
+Parts.NumberIn                              140.00     .00000     140.00     140.00     2
+Parts.NumberOut                             140.00     .00000     140.00     140.00     2
+Milling Operator.NumberSeized               140.00     .00000     140.00     140.00     2
+Milling Operator.ScheduledUtilization       .96953     .16842     .95627     .98278     2
+Milling Operator.BusyCost                   5712.3     141.72     5701.2     5723.5     2
+Milling Operator.IdleCost                   90.395     514.07     49.935     130.85     2
+Milling Operator.UsageCost                  .00000     .00000     .00000     .00000     2
+Lathe Operator.NumberSeized                 140.00     .00000     140.00     140.00     2
+Lathe Operator.ScheduledUtilization         .71389     .17888     .69981     .72797     2
+Lathe Operator.BusyCost                     4205.7     218.98     4188.5     4222.9     2
+Lathe Operator.IdleCost                     843.69     694.43     789.04     898.35     2
+Lathe Operator.UsageCost                    .00000     .00000     .00000     .00000     2
+Rework Operator.NumberSeized                14.000     12.706     13.000     15.000     2
+Rework Operator.ScheduledUtilization        .02673     .02676     .02463     .02884     2
+Rework Operator.BusyCost                    157.35     126.41     147.40     167.30     2
+Rework Operator.IdleCost                    2867.8     648.14     2816.8     2918.9     2
+Rework Operator.UsageCost                   .00000     .00000     .00000     .00000     2
+Station1.AccumVATime                        .00000     .00000     .00000     .00000     2
+Station1.AccumNVATime                       .00000     .00000     .00000     .00000     2
+Station1.AccumWaitTime                      .18862     .70433     .13319     .24406     2
+Station1.AccumTranTime                      .00000     .00000     .00000     .00000     2
+Station1.AccumOtherTime                     .00000     .00000     .00000     .00000     2
+Station1.TotalAccumTime                     .18862     .70433     .13319     .24406     2
+Station1.AccumVACost                        .00000     .00000     .00000     .00000     2
+Station1.AccumNVACost                       .00000     .00000     .00000     .00000     2
+Station1.AccumWaitCost                      .00000     .00000     .00000     .00000     2
+Station1.AccumTranCost                      .00000     .00000     .00000     .00000     2
+Station1.AccumOtherCost                     .00000     .00000     .00000     .00000     2
+Station1.TotalAccumCost                     .00000     .00000     .00000     .00000     2
+Enter Milling.Station.AccumVATime           1713.7     42.517     1710.3     1717.0     2
+Enter Milling.Station.AccumNVATime          .00000     .00000     .00000     .00000     2
+Enter Milling.Station.AccumWaitTime         34074.     23288.     32241.     35907.     2
+Enter Milling.Station.AccumTranTime         .00000     .00000     .00000     .00000     2
+Enter Milling.Station.AccumOtherTime        .00000     .00000     .00000     .00000     2
+Enter Milling.Station.TotalAccumTime        35788.     23330.     33951.     37624.     2
+Enter Milling.Station.AccumVACost           5712.3     141.72     5701.2     5723.5     2
+Enter Milling.Station.AccumNVACost          .00000     .00000     .00000     .00000     2
+Enter Milling.Station.AccumWaitCost         .00000     .00000     .00000     .00000     2
+Enter Milling.Station.AccumTranCost         .00000     .00000     .00000     .00000     2
+Enter Milling.Station.AccumOtherCost        .00000     .00000     .00000     .00000     2
+Enter Milling.Station.TotalAccumCost        5712.3     141.72     5701.2     5723.5     2
+Enter Rework.Station.AccumVATime            47.206     37.923     44.222     50.191     2
+Enter Rework.Station.AccumNVATime           .00000     .00000     .00000     .00000     2
+Enter Rework.Station.AccumWaitTime          .51172     6.5018     .00000     1.0234     2
+Enter Rework.Station.AccumTranTime          .00000     .00000     .00000     .00000     2
+Enter Rework.Station.AccumOtherTime         .00000     .00000     .00000     .00000     2
+Enter Rework.Station.TotalAccumTime         47.718     44.425     44.222     51.215     2
+Enter Rework.Station.AccumVACost            157.35     126.41     147.40     167.30     2
+Enter Rework.Station.AccumNVACost           .00000     .00000     .00000     .00000     2
+Enter Rework.Station.AccumWaitCost          .00000     .00000     .00000     .00000     2
+Enter Rework.Station.AccumTranCost          .00000     .00000     .00000     .00000     2
+Enter Rework.Station.AccumOtherCost         .00000     .00000     .00000     .00000     2
+Enter Rework.Station.TotalAccumCost         157.35     126.41     147.40     167.30     2
+Enter Wire House R.Station.AccumVATime      .00000     .00000     .00000     .00000     2
+Enter Wire House R.Station.AccumNVATime     .00000     .00000     .00000     .00000     2
+Enter Wire House R.Station.AccumWaitTime    .00000     .00000     .00000     .00000     2
+Enter Wire House R.Station.AccumTranTime    .00000     .00000     .00000     .00000     2
+Enter Wire House R.Station.AccumOtherTime   .00000     .00000     .00000     .00000     2
+Enter Wire House R.Station.TotalAccumTime   .00000     .00000     .00000     .00000     2
+Enter Wire House R.Station.AccumVACost      .00000     .00000     .00000     .00000     2
+Enter Wire House R.Station.AccumNVACost     .00000     .00000     .00000     .00000     2
+Enter Wire House R.Station.AccumWaitCost    .00000     .00000     .00000     .00000     2
+Enter Wire House R.Station.AccumTranCost    .00000     .00000     .00000     .00000     2
+Enter Wire House R.Station.AccumOtherCost   .00000     .00000     .00000     .00000     2
+Enter Wire House R.Station.TotalAccumCost   .00000     .00000     .00000     .00000     2
+Enter Wire House M.Station.AccumVATime      .00000     .00000     .00000     .00000     2
+Enter Wire House M.Station.AccumNVATime     .00000     .00000     .00000     .00000     2
+Enter Wire House M.Station.AccumWaitTime    .00000     .00000     .00000     .00000     2
+Enter Wire House M.Station.AccumTranTime    .00000     .00000     .00000     .00000     2
+Enter Wire House M.Station.AccumOtherTime   .00000     .00000     .00000     .00000     2
+Enter Wire House M.Station.TotalAccumTime   .00000     .00000     .00000     .00000     2
+Enter Wire House M.Station.AccumVACost      .00000     .00000     .00000     .00000     2
+Enter Wire House M.Station.AccumNVACost     .00000     .00000     .00000     .00000     2
+Enter Wire House M.Station.AccumWaitCost    .00000     .00000     .00000     .00000     2
+Enter Wire House M.Station.AccumTranCost    .00000     .00000     .00000     .00000     2
+Enter Wire House M.Station.AccumOtherCost   .00000     .00000     .00000     .00000     2
+Enter Wire House M.Station.TotalAccumCost   .00000     .00000     .00000     .00000     2
+Enter Lathe.Station.AccumVATime             1261.7     65.696     1256.5     1266.8     2
+Enter Lathe.Station.AccumNVATime            .00000     .00000     .00000     .00000     2
+Enter Lathe.Station.AccumWaitTime           66530.     14890.     65358.     67702.     2
+Enter Lathe.Station.AccumTranTime           .00000     .00000     .00000     .00000     2
+Enter Lathe.Station.AccumOtherTime          .00000     .00000     .00000     .00000     2
+Enter Lathe.Station.TotalAccumTime          67792.     14955.     66615.     68969.     2
+Enter Lathe.Station.AccumVACost             4205.7     218.98     4188.5     4222.9     2
+Enter Lathe.Station.AccumNVACost            .00000     .00000     .00000     .00000     2
+Enter Lathe.Station.AccumWaitCost           .00000     .00000     .00000     .00000     2
+Enter Lathe.Station.AccumTranCost           .00000     .00000     .00000     .00000     2
+Enter Lathe.Station.AccumOtherCost          .00000     .00000     .00000     .00000     2
+Enter Lathe.Station.TotalAccumCost          4205.7     218.98     4188.5     4222.9     2
+All Entities.VACost                         10075.     203.67     10059.     10091.     2
+All Entities.NVACost                        .00000     .00000     .00000     .00000     2
+All Entities.WaitCost                       .00000     .00000     .00000     .00000     2
+All Entities.TranCost                       .00000     .00000     .00000     .00000     2
+All Entities.OtherCost                      .00000     .00000     .00000     .00000     2
+All Entities.TotalCost                      10075.     203.67     10059.     10091.     2
+All Resources.BusyCost                      10075.     203.67     10059.     10091.     2
+All Resources.IdleCost                      3801.9     1856.6     3655.8     3948.1     2
+All Resources.UsageCost                     .00000     .00000     .00000     .00000     2
+All Resources.TotalCost                     13877.     1652.9     13747.     14007.     2
+System.TotalCost                            13877.     1652.9     13747.     14007.     2
+System.NumberOut                            140.00     .00000     140.00     140.00     2
+
+Simulation run time: 1.30 minutes.
+Simulation run complete.

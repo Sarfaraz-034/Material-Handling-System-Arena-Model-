@@ -1,0 +1,30 @@
+[RESOURCES]
+Milling Operator
+Lathe Operator
+Rework Operator
+[VARIABLES]
+CNC Milling.VATime
+Quality Check.NumberOut True
+CNC Milling.NumberIn
+CNC Milling.NumberOut
+CNC Milling.VACost
+Rework.VACost
+Rework.VATime
+CNC Lathe.NumberOut
+CNC Lathe.NumberIn
+CNC Milling.WaitCost
+CNC Milling.WaitTime
+CNC Lathe.VATime
+Quality Check.NumberOut False
+CNC Lathe.VACost
+CNC Lathe.WaitCost
+Transporter 3_N
+Part Arrival.NumberOut
+Transporter 1_N
+CNC Lathe.WaitTime
+Rework.NumberOut
+Rework.NumberIn
+Wire House.NumberOut
+Rework.WaitTime
+Transporter 2_N
+Rework.WaitCost
